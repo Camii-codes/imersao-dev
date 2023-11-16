@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: rgb(68, 68, 217) url(../imagens/background.png);
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
+
+header {
+    position: relative;
+}
+
+img#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(190%, 30%);
+}
+
+main {
+    position: relative;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, 70%);
+}
+
