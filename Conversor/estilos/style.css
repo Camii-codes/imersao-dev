@@ -14,15 +14,17 @@ html, body {
 }
 
 header {
+    width: 150px;
+    height: 70px;
     position: relative;
 }
 
-img#logo {
+img {
     position: absolute;
     top: 50%;
     left: 50%;
 
-    transform: translate(190%, 30%);
+    transform: translate(-90%, 10%);
 }
 
 main {
@@ -32,13 +34,19 @@ main {
 h1 {
     font-family: monospace;
     text-align: center;
+    margin: 90px;
+    color: white;
 }
 
-img {
+h1 > span.color {
+    background-color: red;
+}
+
+img#moedas {
     position: absolute;
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, 70%);
+    transform: translate(-50%, 20%);
 }
 
