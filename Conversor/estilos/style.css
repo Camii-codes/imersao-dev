@@ -15,7 +15,7 @@ html, body {
 
 header {
     width: 150px;
-    height: 70px;
+    height: 30px;
     position: relative;
 }
 
@@ -50,3 +50,10 @@ img#moedas {
     transform: translate(-50%, 20%);
 }
 
+img#espaco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-55%, 10%);
+}
