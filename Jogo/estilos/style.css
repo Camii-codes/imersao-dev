@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: rgb(68, 68, 217) url(../imagens/background.png);
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
+
+header {
+    width: 150px;
+    height: 30px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-90%, 10%);
+}
+
+main {
+    position: relative;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    margin: 90px;
+    color: white;
+}
+
+h1 > span.color {
+    background-color: red;
+}
+
+img#moedas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, 20%);
+}
+
+img#espaco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-55%, 10%);
+}
