@@ -42,12 +42,12 @@ h1 > span.color {
     background-color: red;
 }
 
-img#moedas {
+img#cerebro {
     position: absolute;
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, -1%);
 }
 
 img#espaco {
