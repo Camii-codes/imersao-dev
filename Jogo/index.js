@@ -1,4 +1,9 @@
+/* Número escolhido.
 let numeroSecreto = 581;
+let chute; */
+
+// Número aleatório escolhido pelo computador:
+let numeroSecreto = parseInt(Math.random() * 1001);
 let chute;
 
 while(chute != numeroSecreto) {
