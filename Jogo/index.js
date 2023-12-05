@@ -3,8 +3,10 @@ let chute = window.prompt('Digite um número de 1 a 1000');
 
 if (chute == numeroSecreto) {
     window.alert('Acertou!');
-} else {
-    window.alert('Errou!'); 
+} else if (chute > numeroSecreto) {
+    window.alert('Errou... o número é menor.'); 
+} else if (chute < numeroSecreto) {
+    window.alert('Errou... o número é maior.');
 }
 
 
