@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
+
+header {
+    width: 150px;
+    height: 30px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-90%, 10%);
+}
+
+main {
+    position: relative;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    margin: 90px;
+    color: white;
+}
+
+h1 > span.color {
+    font-size: 0.9em;
+    background-color: red;
+}
