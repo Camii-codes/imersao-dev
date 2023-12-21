@@ -13,10 +13,6 @@ html, body {
     height: 100vh;
 }
 
-header {
-    
-}
-
 h1 {
     font-family: monospace;
     text-align: center;
@@ -28,3 +24,15 @@ h1 > span.color {
     font-size: 0.9em;
     background-color: red;
 }
+
+body > img {
+    margin: 0 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  
